@@ -1,1 +1,1 @@
-
+gst-launch-1.0 v4l2src num-buffers=1 ! "video/x-raw, format=(string)UYVY, width=(int)2304, height=(int)1536" ! jpegenc ! filesink location=<filename>.jpg
