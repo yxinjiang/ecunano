@@ -28,7 +28,7 @@ function s3Upload
 }
 
 # set the path based on the first argument
-path='/home/yixin/S3upload_bash'
+path='/home/nvidia/imagecapture'
 
 # loop through the path and upload the files
 for file in "$path"/*; do
